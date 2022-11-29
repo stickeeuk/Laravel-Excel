@@ -2,7 +2,11 @@
 
 All notable changes to this project will be documented in this file.
 
-## [Unreleased]
+## [4.0.0] - 2022-11-29
+
+### BREAKING CHANGES
+
+- no longer supports PHP versions lower than 8.0
 
 ### Changed
 - Cast empty headings to indexed integer
@@ -14,6 +18,7 @@ All notable changes to this project will be documented in this file.
 - Fix testing for multiple stored files by regex matching (#3631).
 - Allow `required_unless` rule (#3660)
 - Fix output of `WithFormatData` in combination with `SkipsEmptyRows` (#3760)
+- Fix not compatible with `psr/simple-cache` `v3.0` (https://github.com/stickeeuk/Laravel-Excel/pull/1)
 
 ## [3.1.40] - 2022-05-02
 
